@@ -21,4 +21,8 @@ The repository includes the source, required reference images, the PixelFX subse
 
 `timeline.js` defines the shot timing. `scene.js` renders the same deterministic frames in the browser and in the video export. `assets/profile.png`, `assets/follow.png`, and `assets/following.png` are the supplied reference images. The follower value starts at 97, reaches the current 145 during the volley, then ends at 146 on the Follow-button hit. Above the follower count, “+48 since yesterday” floats upward and fades like the +1 labels, stretched over the time between the volley and the final aiming motion. It finishes fading out as the character turns toward Follow. The existing Following statistic remains 147.
 
-Arrow Shot poses, character rendering, projectile, and impact effects come from [PixelFX](https://github.com/patch-gg/pixelfx), used under its MIT license. The relevant license and notices are in `vendor/pixelfx` and are also included in the standalone HTML. No Patch Pixel font is used.
+## License
+
+The project code is licensed under the [MIT License](LICENSE). Reference images and third-party assets retain their respective rights and are not covered by the project's code license.
+
+Arrow Shot poses, character rendering, projectile, and impact effects come from [PixelFX](https://github.com/patch-gg/pixelfx), used under its MIT license. The relevant license and notices are preserved in `vendor/pixelfx`. Both the project license and PixelFX notices are included in the standalone HTML. No Patch Pixel font is used.

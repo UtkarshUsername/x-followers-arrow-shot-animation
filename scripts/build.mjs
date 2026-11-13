@@ -7,10 +7,12 @@ const result = await build({
   target: 'es2022', minify: true, legalComments: 'inline',
   loader: { '.jpg': 'dataurl', '.png': 'dataurl' },
 });
+const projectLicense = await readFile('LICENSE', 'utf8');
 const license = await readFile('vendor/pixelfx/LICENSE', 'utf8');
 const notice = await readFile('vendor/pixelfx/NOTICE.md', 'utf8');
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${START_COUNT} to ${END_COUNT} | Arrow Shot</title>
+<!-- Project code\n${projectLicense} -->
 <!-- PixelFX: https://github.com/patch-gg/pixelfx\n${license}\n${notice} -->
 <style>
 *{box-sizing:border-box}html,body{margin:0}body{color:var(--foreground,#e7e9ea);font-family:var(--font-sans,'Segoe UI',sans-serif)}
