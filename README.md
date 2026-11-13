@@ -1,4 +1,4 @@
-# Followers / Arrow Shot
+# X Followers Arrow Shot Animation
 
 An 18-second, 1080 × 1080 animation using the supplied screenshot of Utkarsh's X profile. The screenshot preserves the original typography, header, tab layout, and spacing. The follower count stays in its original position. A mirrored PixelFX character fires 48 arrows toward the left, raising the count from 97 to 145. A five-second volley accelerates smoothly, holds a fast pace, then slows near the end. The bow raise and recovery each play once around the volley. After the camera finishes zooming out, the character pauses for one second, then turns and aims diagonally upward. A final arrow changes Follow to Following and reveals the notification button, using the supplied control images. That final impact adds one more follower, ending at 146.
 
